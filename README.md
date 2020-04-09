@@ -1,14 +1,19 @@
-# Purpose of the Repository
+# Install AWS CLI on your Mac Terminal
 
-* To deploy containerized pipeline tools Jenkins, SonarQube, and Selenium, to an AWS ECS EC2 Cluster.
-* To trigger the continuous integration of a hello world Java application from an external GitHub repo's pac
-* Note: Continuous deployment of the hello world Java application will ***NOT*** happen
+## Purpose of the Repository
+
+* Check whether AWS Command Line Interface (CLI) is installed on your *Apple Mac / MacBook / MacBook Pro / iMac Terminal*
+* Instructions on how to *install AWS CLI*
+* Instructions on how to *connect to AWS CLI from your Mac Terminal*
+* Spin up your first AWS resource from AWS CLI (*an EC2 instance*)
+
+
+**STEP 1. Open the Terminal in your Mac**
 
 
 
-How to install AWS Command Line Interface (CLI) on your Mac / MacBook / iMac terminal. 
 
-**1. To find the version of AWS CLI installed, execute at the prompt:**
+**STEP 1. To find the version of AWS CLI installed, execute at the prompt:**
 ```
 aws --version
 ```
