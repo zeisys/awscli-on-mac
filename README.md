@@ -8,15 +8,26 @@
 * Spin up your first AWS resource from AWS CLI (*an EC2 instance*)
 
 
-**STEP 1. Open the Terminal in your Mac**
+**STEP 1. Open *Terminal* in your Mac**
 
 
+<p align="center">
+  <img src="./Slide1.png" alt="Open terminal in your Mac darwin OS" width="1300">
+</p>
 
 
-**STEP 1. To find the version of AWS CLI installed, execute at the prompt:**
+**STEP 2. To find the version of AWS CLI installed, execute at the terminal's *prompt* **
+
+
 ```
 aws --version
 ```
+
+
+<p align="center">
+  <img src="./Slide2.png" alt="Find version of the AWS CLI installed on your mac" width="1300">
+</p>
+
 
 **8. If AWS CLI is not installed, then on a Mac Terminal, you can execute the following command(s) at the prompt:**
 
