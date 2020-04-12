@@ -96,7 +96,15 @@ a. Login to your AWS Management console from a web browser. (If you do not have 
 b. Once you reach the AWS Management console, in the *Find Services* search field, enter *IAM*. You will now see *Manage access to AWS resources* as the option. Click on to reach the *IAM Management Console*. Then click on *Users* and click on your *User name*. Then click on the security credentials tab. You will now see a button name *Create access key*. Click on this button. 
 
 <p align="center">
-  <img src="./CreateAccessKey.png" alt="Click the button to create an AWS Access Key and Secret Key">
+  <img src="./CreateAccessKey.png" alt="Click the button to create an AWS Access Key ID and Access Secret Key">
+</p>
+
+<br/>
+
+c. Once you click the button, you will see your AWS access key. Your AWS key has two parts - a 20 character (capitalized alpha numeric) ***Access Key ID*** and a 40 character (alpha numeric) ***Secret Access Key***. Please save both in a safe location. This is the ***only*** time AWS will display your Secret Access Key. *If you lose your secret access key, there is no way to recover it - you will need to create a new access key using the above steps.* 
+
+<p align="center">
+  <img src="./Key.png" alt="Save your AWS Access Key ID and Secret Access Key in a safe location">
 </p>
 
 <br/>
