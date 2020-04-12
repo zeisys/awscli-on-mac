@@ -10,7 +10,7 @@
 ## Steps to run the Repository
 <br/>
 
-### STEP 1. Open *Terminal* in your Mac
+### STEP 1. Launch *Terminal* in your Mac
 
 <br/>
 
@@ -20,7 +20,7 @@
 
 <br/>
 
-**STEP 2. Ensure you are *super user* who can run *sudo* commands. Execute the following command at the terminal's *prompt*.**
+### STEP 2. Ensure you are *super user* who can run *sudo* commands. Execute the following command at the terminal's *prompt*:
 
 ```
 sudo -v
@@ -34,7 +34,7 @@ Please note if you are not a super user, you will **NOT** be able to complete th
 
 <br/>
 
-**STEP 3. To find the version of AWS CLI installed, execute at the terminal's *prompt*.**
+### STEP 3. To find the version of AWS CLI installed, execute at the terminal's *prompt*:
 
 ```
 aws --version
@@ -54,11 +54,11 @@ If AWS CLI is installed, you will get the following message - *aws-cli/X.X.X Pyt
 <br/>
 
 
-**STEP 4. If AWS CLI is installed, please skip to STEP 7**
+### STEP 4. If AWS CLI is installed, please skip to STEP 7.
 
 <br/>
 
-**STEP 5. If AWS CLI is not installed, the first step is to install *Homebrew*.**
+### STEP 5. If AWS CLI is not installed, the first step is to install *Homebrew*.
 
 Homebrew is a package manager for macOS. Please refer https://brew.sh/ for more information. To install Homebrew please paste the following command at the prompt.
 
@@ -68,7 +68,7 @@ Homebrew is a package manager for macOS. Please refer https://brew.sh/ for more 
 
 <br/>
 
-**STEP 6. Now you can install the *AWS CLI package*.**
+### STEP 6. Install the *AWS CLI package*.
 
 Paste following command at the prompt
 ```
@@ -83,7 +83,7 @@ sudo brew install awscli
 <br/>
 
 
-**STEP 7. Setup Programmatic Access to AWS.**
+### STEP 7. Setup Programmatic Access to AWS.
 
 a. Login to your AWS Management console from a web browser. (If you do not have an aws account, visit https://portal.aws.amazon.com/gp/aws/developer/registration/index.html to setup a **new account**. If you already have an aws account, please visit http://console.aws.amazon.com)
 
@@ -109,7 +109,7 @@ c. Once you click the button, you will see your AWS access key. Your AWS key has
 
 <br/>
 
-**STEP 8. Configure AWS CLI credentials in your mac terminal**
+### STEP 8. Configure AWS CLI credentials at your mac terminal.
 
 Go back to the terminal and paste this command at the prompt.
 ```
@@ -128,12 +128,21 @@ b. Paste your AWS Secret Access Key, at the *Enter your AWS Secret Access Key :*
 c. Type in which region you want to default to, at the *Default region name :* prompt. For the purpose of this instructions, please enter ***us-east-1*** at the prompt.<br/>
 d. Type in what output format you want to default to, at the *Default output format :* prompt. For the purpose of this instructions, please enter ***json*** at the prompt, and click enter. 
 
-### STEP 8. Check if the connectivity is established from your mac terminal to AWS
+### STEP 9. Check if the connectivity is established from your mac terminal to AWS
 
 At the terminal, paste this command at the prompt:
 ```
 aws sts get-caller-identity
 ```
-*If the connectivity is established, you will get your UserID, AWS Account Number, and your IAM ARN in AWS. *
+<br/>
+
+*If the connectivity is established, you will get a JSON response similar to whats shown below.*
+```
+{
+    "UserId": "ABCDEFGHIJ0123456789",
+    "Account": "123456789012",
+    "Arn": "arn:aws:iam::123456789012:user/user1"
+}
+```
 
 **9. In your mac terminal, git clone this repository**
