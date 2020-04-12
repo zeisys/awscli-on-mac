@@ -5,7 +5,7 @@
 * Check whether AWS Command Line Interface (CLI) is installed on your *Apple Mac / MacBook / MacBook Pro / iMac Terminal*
 * Instructions on how to *install AWS CLI*
 * Instructions on how to *connect to AWS CLI from your Mac Terminal*
-* Spin up your first AWS resource from AWS CLI (*an EC2 instance*)
+* Instructions on how to spin up your first AWS resource from AWS CLI (*an EC2 instance*)
 
 ## Steps to run the Repository
 <br/>
@@ -85,11 +85,21 @@ sudo brew install awscli
 
 **STEP 6. Setup Programmatic Access to AWS.**
 
-a. Login to your AWS console from a web browser. (If you do not have an aws account, visit https://portal.aws.amazon.com/gp/aws/developer/registration/index.html to setup a **new account**. If you already have an aws account, please visit http://console.aws.amazon.com)
+a. Login to your AWS Management console from a web browser. (If you do not have an aws account, visit https://portal.aws.amazon.com/gp/aws/developer/registration/index.html to setup a **new account**. If you already have an aws account, please visit http://console.aws.amazon.com)
 
 <p align="center">
   <img src="./Login.png" alt="Login to your AWS account to reach the AWS Management Console" width="300">
 </p>
+
+<br/>
+
+b. Once you reach the AWS Management console, in the *Find Services* search field, enter *IAM*. You will now see *Manage access to AWS resources* as the option. Click on to reach the *IAM Management Console*. Then click on *Users* and click on your *User name*. Then click on the security credentials tab. You will now see a button name *Create access key*. Click on this button. 
+
+<p align="center">
+  <img src="./CreateAccessKey.png" alt="Click the button to create an AWS Access Key and Secret Key">
+</p>
+
+<br/>
 
 
 Configure AWS CLI credentials 
