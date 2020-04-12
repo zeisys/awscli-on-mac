@@ -32,6 +32,7 @@ If you are a super user, you will not get any response.
 Please note if you are not a super user, you will **NOT** be able to complete the remaining steps below.
 
 
+
 **STEP 3. To find the version of AWS CLI installed, execute at the terminal's *prompt*.**
 
 ```
@@ -49,7 +50,10 @@ If AWS CLI is not installed you will get the following error - *No such file or 
 If AWS CLI is installed, you will get the following message - *aws-cli/X.X.X Python/X.X.X Darwin/X.X.X botocore/X.X.XdevX*
 
 
+
 **STEP 4. If AWS CLI is installed, please skip to STEP X**
+
+
 
 **STEP 5. If AWS CLI is not installed, the first step is to install *Homebrew*.**
 
@@ -61,10 +65,19 @@ Homebrew is a package manager for macOS. Please refer https://brew.sh/ for more 
 
 
 
-Install Homebrew
+**STEP 5. Now you can install the *AWS CLI package*.**
+
+Paste following command at the prompt
+```
+brew install awscli
+```
+
+If you get a message saying *Error: The following directories are not writable by your user:*, you must prefix *sudo* with each of your commands at the prompt as shown below.
 ```
 sudo brew install awscli
 ```
+
+
 
 Configure AWS CLI credentials 
 ```
