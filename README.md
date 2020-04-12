@@ -1,7 +1,5 @@
 # Install AWS CLI on your Mac Terminal
 
-Some Markdown text with <span style="color:blue">some *blue* text</span>.
-
 ## Purpose of the Repository
 
 * Check whether AWS Command Line Interface (CLI) is installed on your *Apple Mac / MacBook / MacBook Pro / iMac Terminal*
@@ -21,7 +19,6 @@ Some Markdown text with <span style="color:blue">some *blue* text</span>.
 </p>
 
 <br/>
-<br/>
 
 **STEP 2. Ensure you are *super user* who can run *sudo* commands. Execute the following command at the terminal's *prompt*.**
 
@@ -36,7 +33,6 @@ If you are a super user, you will not get any response.
 Please note if you are not a super user, you will **NOT** be able to complete the remaining steps below.
 
 <br/>
-<br/>
 
 **STEP 3. To find the version of AWS CLI installed, execute at the terminal's *prompt*.**
 
@@ -44,6 +40,7 @@ Please note if you are not a super user, you will **NOT** be able to complete th
 aws --version
 ```
 
+<br/>
 
 <p align="center">
   <img src="./Slide2.png" alt="Find version of the AWS CLI installed on your mac" width="1300">
@@ -54,11 +51,12 @@ If AWS CLI is not installed you will get the following error - *No such file or 
 
 If AWS CLI is installed, you will get the following message - *aws-cli/X.X.X Python/X.X.X Darwin/X.X.X botocore/X.X.XdevX*
 
+<br/>
 
 
 **STEP 4. If AWS CLI is installed, please skip to STEP X**
 
-
+<br/>
 
 **STEP 5. If AWS CLI is not installed, the first step is to install *Homebrew*.**
 
@@ -68,7 +66,7 @@ Homebrew is a package manager for macOS. Please refer https://brew.sh/ for more 
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 ```
 
-
+<br/>
 
 **STEP 5. Now you can install the *AWS CLI package*.**
 
