@@ -9,19 +9,18 @@
 
 ## Steps to run the Repository
 <br/>
-<br/>
 
 **STEP 1. Open *Terminal* in your Mac**
 
 <br/>
-<br/>
-<br/>
+
 <p align="center">
   <img src="./Slide1.png" alt="Open terminal in your Mac OS (darwin OS)" width="1300">
 </p>
-\
-\
-\
+
+<br/>
+<br/>
+
 **STEP 2. Ensure you are *super user* who can run *sudo* commands. Execute the following command at the terminal's *prompt*.**
 
 ```
@@ -34,7 +33,8 @@ If you are a super user, you will not get any response.
   
 Please note if you are not a super user, you will **NOT** be able to complete the remaining steps below.
 
-
+<br/>
+<br/>
 
 **STEP 3. To find the version of AWS CLI installed, execute at the terminal's *prompt*.**
 
