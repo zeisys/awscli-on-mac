@@ -54,7 +54,7 @@ If AWS CLI is installed, you will get the following message - *aws-cli/X.X.X Pyt
 <br/>
 
 
-**STEP 4. If AWS CLI is installed, please skip to STEP 6**
+**STEP 4. If AWS CLI is installed, please skip to STEP 7**
 
 <br/>
 
@@ -68,7 +68,7 @@ Homebrew is a package manager for macOS. Please refer https://brew.sh/ for more 
 
 <br/>
 
-**STEP 5. Now you can install the *AWS CLI package*.**
+**STEP 6. Now you can install the *AWS CLI package*.**
 
 Paste following command at the prompt
 ```
@@ -83,7 +83,7 @@ sudo brew install awscli
 <br/>
 
 
-**STEP 6. Setup Programmatic Access to AWS.**
+**STEP 7. Setup Programmatic Access to AWS.**
 
 a. Login to your AWS Management console from a web browser. (If you do not have an aws account, visit https://portal.aws.amazon.com/gp/aws/developer/registration/index.html to setup a **new account**. If you already have an aws account, please visit http://console.aws.amazon.com)
 
@@ -109,11 +109,22 @@ c. Once you click the button, you will see your AWS access key. Your AWS key has
 
 <br/>
 
+**STEP 8. Configure AWS CLI credentials in your mac terminal**
 
-Configure AWS CLI credentials 
+Go back to the terminal and paste this command at the prompt.
 ```
 aws configure
 ```
+
+
+<p align="center">
+  <img src="./Configure.png" alt="Configure AWS CLI credentials in your mac terminal">
+</p>
+
+<br/>
+
+
+
 
 Check your connectivity to AWS
 ```
