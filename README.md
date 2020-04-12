@@ -88,7 +88,7 @@ sudo brew install awscli
 a. Login to your AWS account. (you must have an aws account **already** setup)
 
 <p align="center">
-  <img src="./Login.png" alt="Login to your AWS account to reach the AWS Management Console" width="600">
+  <img src="./Login.png" alt="Login to your AWS account to reach the AWS Management Console" width="300">
 </p>
 
 
