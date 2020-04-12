@@ -51,7 +51,15 @@ If AWS CLI is installed, you will get the following message - *aws-cli/X.X.X Pyt
 
 **STEP 4. If AWS CLI is installed, please skip to STEP X**
 
-**STEP 5. If AWS CLI is not installed, you can execute the following command(s) at the prompt:**
+**STEP 5. If AWS CLI is not installed, the first step is to install *Homebrew*.**
+
+Homebrew is a package manager for macOS. Please refer https://brew.sh/ for more information. To install Homebrew please paste the following command at the prompt.
+
+```
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+```
+
+
 
 Install Homebrew
 ```
