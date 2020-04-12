@@ -9,10 +9,10 @@
 
 ## Steps to run the Repository
 \
+\
 **STEP 1. Open *Terminal* in your Mac**
-\ 
-\  
-\  
+\
+\
 <p align="center">
   <img src="./Slide1.png" alt="Open terminal in your Mac OS (darwin OS)" width="1300">
 </p>
