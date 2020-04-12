@@ -85,7 +85,7 @@ sudo brew install awscli
 
 **STEP 6. Setup Programmatic Access to AWS.**
 
-a. Login to your AWS account. (you must have an aws account **already** setup)
+a. Login to your AWS console from a web browser. (If you do not have an aws account, visit https://portal.aws.amazon.com/gp/aws/developer/registration/index.html to setup a **new account**. If you already have an aws account, please visit http://console.aws.amazon.com)
 
 <p align="center">
   <img src="./Login.png" alt="Login to your AWS account to reach the AWS Management Console" width="300">
