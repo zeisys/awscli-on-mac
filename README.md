@@ -1,5 +1,7 @@
 # Install AWS CLI on your Mac Terminal
 
+Some Markdown text with <span style="color:blue">some *blue* text</span>.
+
 ## Purpose of the Repository
 
 * Check whether AWS Command Line Interface (CLI) is installed on your *Apple Mac / MacBook / MacBook Pro / iMac Terminal*
