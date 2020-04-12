@@ -123,13 +123,14 @@ aws configure
 
 <br/>
 
-a. Paste your AWS Access Key ID, at the *Enter your AWS Access Key ID :* prompt
-b. Paste your AWS Secret Access Key, at the *Enter your AWS Secret Access Key :* prompt
-c. Type in which region you want to default to, at the *Default region name :* prompt. For the purpose of this instructions, please enter ***us-east-1*** at the prompt.
+a. Paste your AWS Access Key ID, at the *Enter your AWS Access Key ID :* prompt. <br/>
+b. Paste your AWS Secret Access Key, at the *Enter your AWS Secret Access Key :* prompt. <br/>
+c. Type in which region you want to default to, at the *Default region name :* prompt. For the purpose of this instructions, please enter ***us-east-1*** at the prompt.<br/>
 d. Type in what output format you want to default to, at the *Default output format :* prompt. For the purpose of this instructions, please enter ***json*** at the prompt, and click enter. 
 
+### STEP 8. Check if the connectivity is established from your mac terminal to AWS
 
-Check your connectivity to AWS
+At the terminal, paste this command at the prompt:
 ```
 aws sts get-caller-identity
 ```
