@@ -19,8 +19,20 @@
 
 
 
-**STEP 2. To find the version of AWS CLI installed, execute at the terminal's *prompt*.**
+**STEP 2. Ensure you are *super user* who can run *sudo* commands. Execute the following command at the terminal's *prompt*.**
 
+```
+sudo -v
+```
+
+If you are not a super user, you will get the following error - *Sorry, user <username> may not run sudo on <mac name>.*
+  
+If you are a super user, you will not get any response.  
+  
+Please note if you are not a super user, you will **NOT** be able to complete the remaining steps below.
+
+
+**STEP 3. To find the version of AWS CLI installed, execute at the terminal's *prompt*.**
 
 ```
 aws --version
@@ -32,11 +44,18 @@ aws --version
 </p>
 
 
-**8. If AWS CLI is not installed, then on a Mac Terminal, you can execute the following command(s) at the prompt:**
+If AWS CLI is not installed you will get the following error - *No such file or directory*
+
+If AWS CLI is installed, you will get the following message - *aws-cli/X.X.X Python/X.X.X Darwin/X.X.X botocore/X.X.XdevX*
+
+
+**STEP 4. If AWS CLI is installed, please skip to STEP X**
+
+**STEP 5. If AWS CLI is not installed, you can execute the following command(s) at the prompt:**
 
 Install Homebrew
 ```
-brew install awscli
+sudo brew install awscli
 ```
 
 Configure AWS CLI credentials 
