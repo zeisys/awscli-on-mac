@@ -8,19 +8,18 @@
 * Spin up your first AWS resource from AWS CLI (*an EC2 instance*)
 
 ## Steps to run the Repository
-
-
-
+  
+    
 **STEP 1. Open *Terminal* in your Mac**
-
-
-
+  
+  
+  
 <p align="center">
   <img src="./Slide1.png" alt="Open terminal in your Mac OS (darwin OS)" width="1300">
 </p>
-
-
-
+  
+  
+  
 **STEP 2. Ensure you are *super user* who can run *sudo* commands. Execute the following command at the terminal's *prompt*.**
 
 ```
