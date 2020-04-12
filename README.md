@@ -54,7 +54,7 @@ If AWS CLI is installed, you will get the following message - *aws-cli/X.X.X Pyt
 <br/>
 
 
-**STEP 4. If AWS CLI is installed, please skip to STEP X**
+**STEP 4. If AWS CLI is installed, please skip to STEP 6**
 
 <br/>
 
@@ -80,6 +80,16 @@ If you get a message saying *Error: The following directories are not writable b
 sudo brew install awscli
 ```
 
+<br/>
+
+
+**STEP 6. Setup Programmatic Access to AWS.**
+
+a. Login to your AWS account. (you must have an aws account **already** setup)
+
+<p align="center">
+  <img src="./login.png" alt="Login to your AWS account" width="1300">
+</p>
 
 
 Configure AWS CLI credentials 
