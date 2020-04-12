@@ -79,6 +79,7 @@ If you get a message saying *Error: The following directories are not writable b
 ```
 sudo brew install awscli
 ```
+If your installation completes successfully, ***congratulations, you have installed AWS CLI on your mac terminal AWS CLI.***
 
 <br/>
 
@@ -144,5 +145,7 @@ aws sts get-caller-identity
     "Arn": "arn:aws:iam::123456789012:user/user1"
 }
 ```
+If you get this JSON response, ***congratulations, your mac terminal AWS CLI is connected to your AWS account.***
+
 
 **9. In your mac terminal, git clone this repository**
