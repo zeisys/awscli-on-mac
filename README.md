@@ -8,7 +8,7 @@
 * Spin up your first AWS resource from AWS CLI (*an EC2 instance*)
 
 ## Steps to run the Repository
-
+/n
 **STEP 1. Open *Terminal* in your Mac**
 
 
