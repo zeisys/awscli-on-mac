@@ -10,7 +10,9 @@
 ## Steps to run the Repository
 <br/>
 <br/>
+
 **STEP 1. Open *Terminal* in your Mac**
+
 <br/>
 <br/>
 <br/>
