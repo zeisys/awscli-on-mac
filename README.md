@@ -7,11 +7,13 @@
 * Instructions on how to *connect to AWS CLI from your Mac Terminal*
 * Spin up your first AWS resource from AWS CLI (*an EC2 instance*)
 
-## Steps to run the Repository__
+## Steps to run the Repository
+<br/>
+<br/>
 **STEP 1. Open *Terminal* in your Mac**
-\
-\
-\
+<br/>
+<br/>
+<br/>
 <p align="center">
   <img src="./Slide1.png" alt="Open terminal in your Mac OS (darwin OS)" width="1300">
 </p>
