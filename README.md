@@ -148,4 +148,11 @@ aws sts get-caller-identity
 If you get this JSON response, ***congratulations, your mac terminal AWS CLI is connected to your AWS account.***
 
 
-**9. In your mac terminal, git clone this repository**
+### 9. Spin up the an *EC2 instance* in your AWS account, using mac terminal AWS CLI commands.
+Now that you have the CLI installed, you can type in various commands to spin up and spin down resources in your AWS account. In the below example, we are going to spin up an *EC2 instance* in region *us-east-1*. Paste the following commands at the mac terminal prompt. 
+```
+aws ec2 run-instances --image-id ami-0c09d65d2051ada93 --count 1 --instance-type t2.micro
+```
+
+
+
