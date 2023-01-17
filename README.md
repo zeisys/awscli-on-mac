@@ -91,7 +91,16 @@ sudo brew install awscli
 If your installation completes successfully, ***congratulations, you have installed AWS CLI on your mac terminal AWS CLI.***
 
 <br/>
-
+  
+You can check the version of AWS CLI installed using this command
+```
+aws --version
+```
+You will get a response similar to this
+<p align="center">
+  <img src="./aws-version.png" alt="Version of AWS CLI installed on MacOS" width="300">
+</p>  
+  
 
 ### STEP 7. Setup Programmatic Access to AWS.
 
