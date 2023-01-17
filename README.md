@@ -68,6 +68,13 @@ Homebrew is a package manager for macOS. Please refer https://brew.sh/ for more 
 
 <br/>
 
+<span style="color:red">**Important Step After Installation of Brew.**</span><span style="color:red">you maybe required to run the following commands manually. Brew installation will indicate the correct commands at the end of the installation. Be sure to run these commands - else, brew will not work</span>
+```
+echo '# Set PATH, MANPATH, etc., for Homebrew.' >> /Users/xyz/.zprofile
+echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/xyz/.zprofile
+eval "$(/opt/homebrew/bin/brew shellenv)"
+```
+
 ### STEP 6. Install the *AWS CLI package*.
 
 Paste following command at the prompt
