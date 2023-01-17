@@ -68,7 +68,8 @@ Homebrew is a package manager for macOS. Please refer https://brew.sh/ for more 
 
 <br/>
 
-+**Important Step After Installation of Brew.** You maybe required to run the following commands manually. Brew installation will indicate the correct commands at the end of the installation. Be sure to run these commands - else, brew will not work.+
+> __Warning__
+**Important Step After Installation of Brew.** You maybe required to run the following commands manually. Brew installation will indicate the correct commands at the end of the installation. Be sure to run these commands - else, brew will not work.
 
 ```
 echo '# Set PATH, MANPATH, etc., for Homebrew.' >> /Users/xyz/.zprofile
