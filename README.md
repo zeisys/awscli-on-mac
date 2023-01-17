@@ -98,7 +98,7 @@ aws --version
 ```
 You will get a response similar to this
 <p align="center">
-  <img src="./aws-version.png" alt="Version of AWS CLI installed on MacOS" width="300">
+  <img src="./aws-version.png" alt="Version of AWS CLI installed on MacOS" width="1300">
 </p>  
   
 
